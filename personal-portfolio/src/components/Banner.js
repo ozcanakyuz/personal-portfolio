@@ -43,10 +43,10 @@ export const Banner = () => {
     return (
         <section className="banner" id="home">
             <Container>
-                <Row className="align-items-center">
+                <Row className="align-items-center text-center">
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my portfolio</span>
-                        <h1>{`Hi I'm webcoded`}<span className="wrap">{text}</span></h1>
+                        <h1>{`Hi I'm Webcoded`}<br></br><span className="wrap">{text}</span></h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, vero laborum corporis quos molestias labore?</p>
                         <button onClick={() => console.log('connect')}>Let's Connect<ArrowRightCircle size={25}/></button>
                     </Col>
