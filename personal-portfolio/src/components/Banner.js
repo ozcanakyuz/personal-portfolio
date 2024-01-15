@@ -53,22 +53,16 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
             {({ isVisible }) => 
-              <div className={isVisible ? "animated_animated animate__fadeIn" : ""}>
+                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my portfolio</span>
-                <h1>
-                  {`Hi I'm Webcoded`}
-                  <br></br>
-                  <span className="wrap">{text}</span>
+                <h1>{`Hi I'm Webcoded`}
+                    <br></br>
+                    <span className="wrap">{text}</span>
                 </h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
-                  vero laborum corporis quos molestias labore?
-                </p>
-                <button onClick={() => console.log("connect")}>
-                  Let's Connect
-                  <ArrowRightCircle size={25} />
-                </button>
-              </div> }
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Ipsa, vero laborum corporis quos molestias labore?</p>
+                <button onClick={() => console.log("connect")}>Let's Connect<ArrowRightCircle size={25} /></button>
+                </div>
+            }
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
