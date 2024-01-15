@@ -2,7 +2,7 @@
 This is a React-based website project with a UI/UX design. The website consists of various components to create a seamless user experience.
 
 ## Website Img
-<img src="https://i.hizliresim.com/bzo0xeu.png" alt="alt text" width="320" height="180">
+<img src="https://i.hizliresim.com/bzo0xeu.png" alt="website image">
 
 ## Components
 ### 1. Banner.js
