@@ -1,4 +1,4 @@
-# Persoan Portfolio
+# Personal Portfolio
 This is a React-based website project with a UI/UX design. The website consists of various components to create a seamless user experience.
 
 ## Website Img
